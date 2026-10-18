@@ -8,7 +8,7 @@ A fraudulent transaction often looks normal on its own. It only stands out **in 
 
 ## Dataset
 
-The data is the [IBM synthetic credit-card transactions dataset](https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions) from Kaggle. The full dataset has 24.4 million transactions (1991–2020) from 2,000 customers, 29,757 of them fraudulent. To keep training fast, this project uses one customer (User 0):
+The data is the [IBM synthetic credit-card transactions dataset](https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions) from Kaggle. The full dataset has 24.4 million transactions (1991–2020) from 2,000 customers, 29,757 of them fraudulent. This experiment uses one customer (User 0):
 
 | | User 0 |
 |---|---|
