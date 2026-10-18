@@ -1,6 +1,6 @@
 # Fraud Detection Using Graph Neural Networks
 
-A **Graph Neural Network (GNN)** built with **PyTorch Geometric** that detects fraudulent credit-card transactions. It is compared with a standard neural network (MLP) to measure how much the connections between transactions help.
+A Graph Neural Network (GNN) built with PyTorch Geometric to detect fraudulent credit-card transactions. It is compared with a standard neural network (MLP) to understand how including information about the connections between transactions can improve fraud detection.
 
 A fraudulent transaction often looks normal on its own. It only stands out **in context**, for example an online purchase on a card that is usually swiped, or a burst of purchases at shops the card has never used. A standard model sees each transaction in isolation. A GNN learns from the **relationships between transactions**: each transaction gathers information from its neighbours, meaning the card's other recent purchases and the merchant's other recent customers, so it can spot behaviour that is out of character.
 
